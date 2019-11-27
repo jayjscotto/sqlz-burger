@@ -1,0 +1,77 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+body #bg {
+  background-color: #03FCD7;
+  -webkit-clip-path: polygon(100% 17%, 100% 66%, 0 88%, 0 39%);
+          clip-path: polygon(100% 17%, 100% 66%, 0 88%, 0 39%);
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: .8;
+}
+
+body img {
+  display: block;
+  margin: 2em auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+body h1.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+body .col {
+  margin: 0 !important;
+}
+
+body div.burgers ul {
+  list-style: none;
+}
+
+body div.burgers ul button.changeState {
+  background-color: #52605C;
+  padding: 0.25em 0.5em;
+  color: #2fe7ff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+body div.burgers ul button.changeState:hover {
+  opacity: 0.8;
+}
+
+body div#user-input h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+body div#user-input form button#burger-submit {
+  background-color: #52605C;
+  padding: 1em 2em;
+  color: #2fe7ff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+body div#user-input form button#burger-submit:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */
