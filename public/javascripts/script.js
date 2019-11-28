@@ -29,7 +29,6 @@ $(document).on('click', '.changeState', function(e) {
         eaten: $(this).data('eaten')
     } 
 
-    
     if (!eatState.eaten) {
 
         $.ajax('/api/' + id, {
